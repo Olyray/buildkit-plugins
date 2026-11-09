@@ -12,19 +12,26 @@ A Claude Code plugin with skills for planning and building apps.
 
 You need [Claude Code](https://code.claude.com) installed.
 
-**From your terminal:**
+**One command (from your terminal):**
+
+```bash
+claude plugin install buildkit --marketplace Olyray/buildkit-plugins
+```
+
+Inside a Claude Code session, the same thing is:
+
+```
+/plugin install buildkit --marketplace Olyray/buildkit-plugins
+```
+
+**Or in two steps** (add the catalog first, then install from it):
 
 ```bash
 claude plugin marketplace add Olyray/buildkit-plugins
 claude plugin install buildkit@buildkit-plugins --scope user
 ```
 
-**Or from inside a Claude Code session:**
-
-```
-/plugin marketplace add Olyray/buildkit-plugins
-/plugin install buildkit@buildkit-plugins
-```
+Inside a session: `/plugin marketplace add Olyray/buildkit-plugins`, then `/plugin install buildkit@buildkit-plugins`.
 
 If the command doesn't show up right away, run `/reload-plugins` or restart Claude Code.
 
