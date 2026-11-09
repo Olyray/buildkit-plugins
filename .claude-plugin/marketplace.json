@@ -1,0 +1,12 @@
+{
+  "name": "buildkit-plugins",
+  "description": "Skills for planning and building apps",
+  "owner": { "name": "Olyray" },
+  "plugins": [
+    {
+      "name": "buildkit",
+      "source": "./plugins/buildkit",
+      "description": "Skills for planning and building apps. Includes ideate: explore ideas, tools, and approaches before you build."
+    }
+  ]
+}
